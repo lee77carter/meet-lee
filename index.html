@@ -19,14 +19,108 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#work">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact" id="contact-link">contact me</a></li>
+        </ul>
+      </nav>
+      <div class="home-title">
+        <h1>Hello, my name is Leandra!</h1>
+        <h2>A Passionate Full Stack Web Developer dedicated to crafting responsive and engaging websites.</h2>
+      </div>
+    </div>
+  </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3> <!-- All Projects -->
+          <div class="portfolio-wrapper">
+            <div class="home-portfolio-piece">
+              <!-- Receipe App -->
+              <figure>
+                <a href="https://recipe-faves.netlify.app/" target="_blank"><img src="img/recipe-app.png"
+                    alt="Recipe Project"></a>
+              </figure>
+              <h4>Recipe App</h4>
+              <p class="project-description">Recipe project creating a Sticky Notes web app. Uses
+                React and Flask
+                components with the ability to add, save, edit, delete and search recipes.</p>
+              <p><span>Skills: </span>Create-React-App, Flask and SQLite</p>
+              <p class="flex-fill"><span>Tools: </span>Netlify, Props, State</p>
+              <a class="project-link" href="https://recipe-faves.netlify.app/" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <!-- Guess Word Game App -->
+              <figure>
+                <a href="https://lee77carter.github.io/guess-the-word/" target="_blank"><img src="img/guess-word.png"
+                    alt="Guess the Word Project"></a>
+              </figure>
+              <h4>Guess the Word Game</h4>
+              <p class="project-description">Uses a game that allows one letter at a time until the word has been
+                guessed or until the allocated tries have been met.</p>
+              <p><span>Skills: </span>Manipulate the DOM, Vanilla JavaScript
+              </p>
+              <p class="flex-fill"><span>Tools: </span>Visual Studio, GitHub</p>
+              <a class="project-link" href="https://lee77carter.github.io/guess-the-word/" target="_blank">live
+                page</a>
+            </div>
+            <!-- Unplugged Responsive Website -->
+            <figure>
+              <a href="https://lee77carter.github.io/unplugged/" target="_blank"><img src="img/unplugged.png"
+                  alt="Unplugged Website Project"></a>
+            </figure>
+            <h4>Unplugged Responsive</h4>
+            <p class="project-description">A mobile-responsive website with three pages based on a design comp. Includes
+              adaptability across screens for mobile, tablet, and desktop devices.</p>
+            <p><span>Skills: </span>HTML5/CSS3, Media Queries, Responsive Typography, Flexbox
+            </p>
+            <p class="flex-fill"><span>Tools: </span>Visual Studio, GitHub, Photoshop</p>
+            <a class="project-link" href="https://lee77carter.github.io/unplugged/" target="_blank">live
+              page</a>
+          </div>
+          <!-- Rogue Pickings Website -->
+          <figure>
+            <a href="https://lee77carter.github.io/rogue-pickings/" target="_blank"><img src="img/rogue-pickings.png"
+                alt="Rogue Pickings Website Project"></a>
+          </figure>
+          <h4>Rogue Pickings</h4>
+          <p class="project-description">A website converted from static to responsive to display on multiple devices.</p>
+          <p><span>Skills: </span>HTML5/CSS3, Media Queries, Responsive Typography, Flexbox
+          </p>
+          <p class="flex-fill"><span>Tools: </span>Visual Studio, GitHub, Photoshop</p>
+          <a class="project-link" href="https://lee77carter.github.io/rogue-pickings/" target="_blank">live
+            page</a>
+        </div>
+        <!-- Name Tag -->
+        <figure>
+          <a href="https://name-tag-app.netlify.app/" target="_blank"><img src="img/name-tag-app.png"
+              alt="Name Tag Project"></a>
+        </figure>
+        <h4>Name Tag</h4>
+        <p class="project-description">A bulk name tag generator using ES6 modules and functional components.</p>
+        <p><span>Skills: </span>ES6, JSX, Managing Data Flow
+        </p>
+        <p class="flex-fill"><span>Tools: </span>Netlify, Codesandbox</p>
+        <a class="project-link" href="https://name-tag-app.netlify.app/" target="_blank">live
+          page</a>
+      </div>
 
-</body>
+  </main>
 
 </html>
