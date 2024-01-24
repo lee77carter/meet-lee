@@ -85,8 +85,9 @@ textarea {
    ========================================================================== */
 
 body {
-  font-family: 'Alike', serif;  
+  font-family: 'Alike', serif;
   color: #152A3E;
+  font-size: 16px;
 }
 /* HEADER */
 header {
@@ -133,6 +134,10 @@ a:hover {
 }
 
 /* Projects */
+.portfolio-header {
+  text-align: center;
+}
+
 #work {
   width: 100%;
   padding-top: 60px;
@@ -140,7 +145,10 @@ a:hover {
   justify-content: center;
   text-align: center;
   background-color: #cac691;
-}   
+}
+h2 {
+  padding: 20px;
+}
 h3 {
   margin-bottom: 20px;
   font-size: 1.75rem;
@@ -208,6 +216,7 @@ footer {
 }
 .far.fa-envelope {
   font-size: 1.875rem;
+  padding-bottom: 30px;
 }
 .social-icons {
   display: flex;
@@ -224,6 +233,7 @@ footer a:hover {
 }
 .copyright {
   font-size: 10px;
+  padding: 50px 10px;
 }
 .top-button {
   padding: 20px 0 5px 230px;
@@ -239,6 +249,8 @@ footer a:hover {
 #topBtn:hover {
   background-color: #E9B14C; /* Add a dark-grey background on hover */
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
