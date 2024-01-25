@@ -280,7 +280,7 @@ a:hover {
 
 .project-link:hover {
   color: #152A3E;
-  background-color: #ad7105;
+  background-color: #E9B14C;
 }
 
 .language-wrapper,
@@ -306,7 +306,7 @@ footer {
 
 footer a:hover {
   color: #152A3E;
-  background-color: #E9B14C;
+  background-color: #ad7105;
 }
 
 .far.fa-envelope {
@@ -344,7 +344,7 @@ footer a:hover {
 }
 
 #topBtn:hover {
-  background-color: #E9B14C;
+  background-color: #ad7105;
   /* Add a dark-grey background on hover */
 }
 
