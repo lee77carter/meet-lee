@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Leandra's Portfolio</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/script.js"></script>
   <meta name="description" content="">
@@ -15,19 +14,15 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
-
-  <meta name="theme-color" content="#fafafa">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alike&family=Open+Sans:wght@400;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,11 +33,12 @@
           <li><a href="#work">projects</a></li>
           <li><a href="#skills">skills</a></li>
           <li><a href="#about">about</a></li>
-          <li><a href="#contact" id="contact-link">contact me</a></li>        </ul>
+          <li><a href="#contact">contact me</a></li>
+        </ul>
       </nav>
       <div class="home-title">
         <h1>Hello, my name is Leandra!</h1>
-        <h2>Full Stack Developer with a passion for problem-solving and crafting end to end solutions.</h2>
+        <h2>I am a Full Stack Developer, dedicated to managing and creating impactful projects.</h2>
       </div>
     </div>
   </header>
@@ -91,7 +87,7 @@
               <h4>Unplugged Responsive</h4>
               <p class="project-description">A mobile-responsive website with three pages based on a design comp.
                 Include adaptability across screens for mobile, tablet, and desktop devices.</p>
-              <p><span>Skills: </span>HTML5/CSS3, Media Queries, Responsive Typography, Flexbox</p>
+              <p><span>Skills: </span>Responsive Typography, Flexbox</p>
               <p class="flex-fill"><span>Tools: </span>Visual Studio, GitHub, Photoshop</p>
               <a class="project-link" href="https://lee77carter.github.io/unplugged/" rel="noopener"
                 target="_blank">live page</a>
@@ -106,7 +102,7 @@
               <p class="project-description">A website converted from static to responsive to display on multiple
                 devices.
               </p>
-              <p><span>Skills: </span>HTML5/CSS3, Media Queries, Responsive Typography, Flexbox
+              <p><span>Skills: </span>Responsive Typography, Media Queries
               </p>
               <p class="flex-fill"><span>Tools: </span>Visual Studio, GitHub, Photoshop</p>
               <a class="project-link" href="https://lee77carter.github.io/rogue-pickings/" rel="noopener"
@@ -167,13 +163,13 @@
             </figure>
             <div class="about-info">
               <h3>Hi! I’m Leandra</h3>
-              <p class="about-text">My development interest stems from my background in systems engineering. In that
+              <p class="about-text">I'm a Full Stack Developer with a passion for creating clean, responsive websites. My development interest stems from my background in systems engineering. In that
                 role,
                 I became adept at how various system components interact. What drew me to development is the logical
                 problem-solving involved, a better understanding of the product, and the gratification of witnessing a
                 product come to life through code.
               </p><br>
-              <p>Looking forward to working with you!</p>
+              <p>Looking forward to working with you! </p>
             </div>
           </div>
         </div>

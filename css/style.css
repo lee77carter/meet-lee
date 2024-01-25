@@ -86,7 +86,7 @@ textarea {
 
 /******** GLOBAL STYLES ********/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Serif', serif;  
   color: #152A3E;
 }
 
@@ -105,13 +105,15 @@ header h1 {
   width: 100%;
 }
 
+header h2 {
+  width: 100%;
+}
+
 h1 {
   font-family: 'Alike', serif;
-  font: 28px;
 }
 
 h2 {
-  padding: 20px;
 }
 
 h3 {
@@ -129,10 +131,6 @@ h3 {
   color: #cac691
 }
 
-.home-title h2 {
-  max-width: 80%;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -144,6 +142,12 @@ ul {
   text-decoration: none;
   margin: 0;
   padding: 0;
+}
+
+nav #contact-link {
+  background-color: #ad7105;
+  padding: 10px 10px;
+  border-radius: 30px;
 }
 
 /********  MAIN STYLES ********/
@@ -162,6 +166,10 @@ p {
 
 p.flex-fill {
   flex-grow: 1;
+}
+
+span {
+  font-weight: bold;
 }
 
 img {
@@ -272,7 +280,7 @@ a:hover {
 
 .project-link:hover {
   color: #152A3E;
-  background-color: #E9B14C;
+  background-color: #ad7105;
 }
 
 .language-wrapper,
@@ -434,11 +442,19 @@ footer a:hover {
     padding: 80px 80px;
   }
 
+  .home-title h2 {
+    max-width: 80%;
+}
+
   h5 {
     font-family: 'Alike', serif;
     line-height: 1.5;
     font-weight: 400;
     width: 100%;
+  }
+
+  .home-title h2 {
+    max-width: 104%;
   }
 
   /********  MAIN STYLES ********/
@@ -448,17 +464,16 @@ footer a:hover {
   }
 
   p {
-    font-size: 1rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin: 0;
   }
 
   img {
     width: 288px;
     height: 220px;
+  }
+
+  .portfolio-wrapper {
+    justify-content: space-around;
   }
 
   #profile-image {
@@ -472,9 +487,9 @@ footer a:hover {
     padding: 10px;
   }
 
-  .portfolio-wrapper {
-    justify-content: space-around;
-  }
+  .project-description {
+    margin: 0 0 30px 0;
+}
 
   #work {
     background-color: #c9c7af;
