@@ -461,6 +461,11 @@ footer a:hover {
     height: 220px;
   }
 
+  #profile-image {
+    width: 90%;
+    height: 50%;
+  }
+
   .home-portfolio-piece {
     width: 45%;
     align-items: center;
