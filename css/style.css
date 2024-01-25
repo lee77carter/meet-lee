@@ -150,6 +150,7 @@ ul {
 .content-wrapper {
   width: 85%;
 }
+
 /* 
 div {
   display: block;
@@ -212,7 +213,11 @@ img {
   background-color: #cac691;
 }
 
-header, #work, #skills, #about, footer {
+header,
+#work,
+#skills,
+#about,
+footer {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -451,10 +456,19 @@ footer a:hover {
     margin-inline-end: 0px;
   }
 
+  img {
+    width: 288px;
+    height: 220px;
+  }
+
   .home-portfolio-piece {
     width: 45%;
     align-items: center;
     padding: 10px;
+  }
+
+  .portfolio-wrapper {
+    justify-content: space-around;
   }
 
   #work {
@@ -471,7 +485,7 @@ footer a:hover {
 
   portfolio-wrapper {
     justify-content: space-around;
-}
+  }
 
   .portfolio-wrapper {
     display: flex;
