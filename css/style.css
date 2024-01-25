@@ -86,19 +86,27 @@ textarea {
 
 /******** GLOBAL STYLES ********/
 body {
-  font-family: 'Roboto Serif', serif;  
+  font-family: 'Roboto Serif', serif;
   color: #152A3E;
+}
+
+header,
+#work,
+#skills,
+#about,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
 }
 
 /******** HEADER STYLES ********/
 header {
   background-color: #152A3E;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-flow: row wrap;
   padding-top: 30px;
   padding-bottom: 60px;
+  padding-right: 10px;
 }
 
 header h1 {
@@ -114,6 +122,7 @@ h1 {
 }
 
 h2 {
+  font-weight: lighter;
 }
 
 h3 {
@@ -131,23 +140,26 @@ h3 {
   color: #cac691
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-ul {
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
+nav {
+  font-size: 10px;
 }
 
 nav #contact-link {
   background-color: #ad7105;
   padding: 10px 10px;
   border-radius: 30px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #contact-link:hover {
@@ -223,17 +235,6 @@ img {
   justify-content: center;
   text-align: center;
   background-color: #cac691;
-}
-
-header,
-#work,
-#skills,
-#about,
-footer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-flow: row wrap;
 }
 
 #work p,
@@ -448,7 +449,10 @@ footer a:hover {
 
   .home-title h2 {
     max-width: 80%;
-}
+  }
+  nav {
+    font-size: 16px;
+  }
 
   h5 {
     font-family: 'Alike', serif;
@@ -493,7 +497,7 @@ footer a:hover {
 
   .project-description {
     margin: 0 0 30px 0;
-}
+  }
 
   #work {
     background-color: #c9c7af;
