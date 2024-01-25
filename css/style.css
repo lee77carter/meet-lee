@@ -81,15 +81,16 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles - Global
+   Author's custom styles
    ========================================================================== */
 
+/******** GLOBAL STYLES ********/
 body {
-  font-family: 'Alike', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #152A3E;
-  font-size: 16px;
 }
-/* HEADER */
+
+/******** HEADER STYLES ********/
 header {
   background-color: #152A3E;
   display: flex;
@@ -99,56 +100,20 @@ header {
   padding-top: 30px;
   padding-bottom: 60px;
 }
+
 header h1 {
   width: 100%;
 }
-.home-title {
-  color: #cac691
-}
-ul {
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-a {
-  text-decoration: none;
-  color: #cac691;
-  text-align: center;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 5px;
-}
-a:hover {
-  color: #152a3e;
-  background-color: #cac691;
+
+h1 {
+  font-family: 'Alike', serif;
+  font: 28px;
 }
 
-.content-wrapper {
-  width: 85%;
-}
-
-/* Projects */
-.portfolio-header {
-  text-align: center;
-}
-
-#work {
-  width: 100%;
-  padding-top: 60px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #cac691;
-}
 h2 {
   padding: 20px;
 }
+
 h3 {
   margin-bottom: 20px;
   font-size: 1.75rem;
@@ -159,27 +124,107 @@ h3 {
   font-weight: bold;
   display: block;
 }
+
+.home-title {
+  color: #cac691
+}
+
+.home-title h2 {
+  max-width: 80%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/********  MAIN STYLES ********/
+.content-wrapper {
+  width: 85%;
+}
+/* 
 div {
   display: block;
 }
+*/
+p {
+  margin: 0;
+}
+
+p.flex-fill {
+  flex-grow: 1;
+}
+
 img {
   width: 100%;
   border-style: none;
   border-radius: 40px;
 }
-.project-link {
-  background-color: #152A3E;  
-  border-radius: 5px;
+
+#work,
+#skills,
+#about {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  color: #cac691;
-  text-transform: uppercase;
-  font-size: 1.125rem;
+  flex-flow: row wrap;
 }
-.project-link:hover {
-  color: #152A3E;
-  background-color: #E9B14C;
+
+.portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-/* Skills */
+
+.portfolio-header {
+  text-align: center;
+}
+
+.project-description {
+  margin: 0 0 30px;
+}
+
+.home-portfolio-piece {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work {
+  width: 100%;
+  padding-top: 60px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #cac691;
+}
+
+header, #work, #skills, #about, footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+#work p,
+#about p {
+  width: 100%;
+  text-align: left;
+}
+
 #skills {
   display: flex;
   justify-content: center;
@@ -187,15 +232,7 @@ img {
   padding-top: 30px;
   padding-bottom: 60px
 }
-.language-wrapper,
-.tool-wrapper {
-    color: #cac691;
-    background-color: #152A3E;
-    padding: 15px 0;
-    margin: 20px 0;
-    border-radius: 30px;
-}
-/* About */
+
 #about {
   display: flex;
   justify-content: center;
@@ -204,52 +241,99 @@ img {
   padding-bottom: 60px;
   background-color: #eeefda;
 }
-/* Footer */
+
+a {
+  text-decoration: none;
+  color: #cac691;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+a:hover {
+  color: #152a3e;
+  background-color: #cac691;
+}
+
+.project-link {
+  background-color: #152A3E;
+  border-radius: 30px;
+  text-align: center;
+  color: #cac691;
+  padding: 0.75rem 3.75rem;
+  margin: 40px 0 60px 0;
+}
+
+.project-link:hover {
+  color: #152A3E;
+  background-color: #E9B14C;
+}
+
+.language-wrapper,
+.tool-wrapper {
+  color: #cac691;
+  background-color: #152A3E;
+  padding: 15px 0;
+  margin: 20px 0;
+  border-radius: 30px;
+}
+
+/******** BOTTOM SECTION ********/
 footer {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-flow: row wrap;
   padding-top: 30px;
   padding-bottom: 60px;
-  background-color: #152A3E;  
+  background-color: #152A3E;
   color: #cac691;
 }
+
+footer a:hover {
+  color: #152A3E;
+  background-color: #E9B14C;
+}
+
 .far.fa-envelope {
   font-size: 1.875rem;
   padding-bottom: 30px;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.875rem;
 }
-footer a:hover {
-  color: #152A3E;
-  background-color: #E9B14C;
-}
+
 .contact-title {
-  color:#f2f0d4;
+  color: #f2f0d4;
 }
+
 .copyright {
   font-size: 10px;
   padding: 50px 10px;
 }
+
 .top-button {
   padding: 20px 0 5px 230px;
 }
+
 #topBtn {
-  background-color: #cac691; /* Set a background color */
-  color: #152A3E; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  background-color: #cac691;
+  color: #152A3E;
+  cursor: pointer;
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
 }
-#topBtn:hover {
-  background-color: #E9B14C; /* Add a dark-grey background on hover */
-}
 
+#topBtn:hover {
+  background-color: #E9B14C;
+  /* Add a dark-grey background on hover */
+}
 
 /* ==========================================================================
    Helper classes
@@ -337,7 +421,70 @@ footer a:hover {
 @media only screen and (min-width: 768px) {
 
   body {
-    background: rgb(183, 30, 163);
+    /* background: rgb(235, 241, 150);*/
+  }
+
+  /******** HEADER STYLES ********/
+  header {
+    padding: 80px 80px;
+  }
+
+  h5 {
+    font-family: 'Alike', serif;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  /********  MAIN STYLES ********/
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p {
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .home-portfolio-piece {
+    width: 45%;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #work {
+    background-color: #c9c7af;
+    /* TEMP */
+    padding-top: 80px 0px 0px;
+    font: 18px;
+  }
+
+  #work p,
+  #about p {
+    text-align: left;
+  }
+
+  portfolio-wrapper {
+    justify-content: space-around;
+}
+
+  .portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /******** BOTTOM SECTION ********/
+  .social-icons {
+    justify-content: space-around;
+    padding: 0 254px;
   }
 
   /* Style adjustments for viewports that meet the condition */
@@ -348,6 +495,10 @@ footer a:hover {
   body {
     background: rgb(17, 215, 57);
   }
+
+  /******** HEADER STYLES ********/
+  /********  MAIN STYLES ********/
+  /******** BOTTOM SECTION ********/
 
   /* Style adjustments for viewports that meet the condition */
 }
