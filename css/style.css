@@ -150,6 +150,10 @@ nav #contact-link {
   border-radius: 30px;
 }
 
+#contact-link:hover {
+  background-color: #cac691;
+}
+
 /********  MAIN STYLES ********/
 .content-wrapper {
   width: 85%;
@@ -280,7 +284,7 @@ a:hover {
 
 .project-link:hover {
   color: #152A3E;
-  background-color: #E9B14C;
+  background-color: #ad7105;
 }
 
 .language-wrapper,
