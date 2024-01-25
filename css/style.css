@@ -119,6 +119,7 @@ header h2 {
 
 h1 {
   font-family: 'Alike', serif;
+  padding: 48px 10px;
 }
 
 h2 {
@@ -287,16 +288,26 @@ a:hover {
   color: #152A3E;
   background-color: #ad7105;
 }
-
+/* skills */
 .language-wrapper,
 .tool-wrapper {
-  color: #cac691;
-  background-color: #152A3E;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  text-transform: uppercase;
+  color: #edece3;
+  background-color: #ad7105;
   padding: 15px 0;
   margin: 20px 0;
   border-radius: 30px;
 }
 
+.language-wrapper p, .tool-wrapper p {
+  background-color: #3c5062;
+  padding: 15px 0;
+  margin: 5px 0;
+}
 /******** BOTTOM SECTION ********/
 footer {
   display: flex;
@@ -500,8 +511,6 @@ footer a:hover {
   }
 
   #work {
-    background-color: #c9c7af;
-    /* TEMP */
     padding-top: 80px 0px 0px;
     font: 18px;
   }
@@ -509,6 +518,7 @@ footer a:hover {
   #work p,
   #about p {
     text-align: left;
+    font-size: larger;
   }
 
   portfolio-wrapper {
