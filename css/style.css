@@ -288,6 +288,7 @@ a:hover {
   color: #152A3E;
   background-color: #ad7105;
 }
+
 /* skills */
 .language-wrapper,
 .tool-wrapper {
@@ -303,19 +304,21 @@ a:hover {
   border-radius: 30px;
 }
 
-.language-wrapper p, .tool-wrapper p {
+.language-wrapper p,
+.tool-wrapper p {
   background-color: #3c5062;
   padding: 15px 0;
   margin: 5px 0;
 }
+
 /******** BOTTOM SECTION ********/
 footer {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-flow: row wrap;
-  padding-top: 30px;
-  padding-bottom: 60px;
+  padding-top: 4px;
+  padding-bottom: 8px;
   background-color: #152A3E;
   color: #cac691;
 }
@@ -326,28 +329,39 @@ footer a:hover {
 }
 
 .far.fa-envelope {
-  font-size: 1.875rem;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.875rem;
+}
+
+.far.fa-envelope,
+.social-icons {
+  font-size:xx-large;
 }
 
 .contact-title {
   color: #f2f0d4;
+  font-size: larger;
 }
 
-.copyright {
-  font-size: 10px;
-  padding: 50px 10px;
+.contact-info {
+  flex-direction: column;
+  float: left;
+  width: 50%;
+  padding-left: px;
+}
+
+.contact-info.follow-section:after {
+  flex-direction: column;
+  clear: both;
 }
 
 .top-button {
-  padding: 20px 0 5px 230px;
+  padding-top: 10px;
 }
 
 #topBtn {
@@ -361,7 +375,11 @@ footer a:hover {
 
 #topBtn:hover {
   background-color: #ad7105;
-  /* Add a dark-grey background on hover */
+}
+
+.copyright {
+  font-size: 14px;
+  padding: 5px;
 }
 
 /* ==========================================================================
@@ -450,7 +468,7 @@ footer a:hover {
 @media only screen and (min-width: 768px) {
 
   body {
-    /* background: rgb(235, 241, 150);*/
+    /* background: rgb(241, 150, 186) */
   }
 
   /******** HEADER STYLES ********/
@@ -461,6 +479,7 @@ footer a:hover {
   .home-title h2 {
     max-width: 80%;
   }
+
   nav {
     font-size: 16px;
   }
@@ -470,6 +489,10 @@ footer a:hover {
     line-height: 1.5;
     font-weight: 400;
     width: 100%;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 
   .home-title h2 {
@@ -521,13 +544,9 @@ footer a:hover {
     font-size: larger;
   }
 
-  portfolio-wrapper {
-    justify-content: space-around;
-  }
-
   .portfolio-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
@@ -536,8 +555,41 @@ footer a:hover {
   /******** BOTTOM SECTION ********/
   .social-icons {
     justify-content: space-around;
-    padding: 0 254px;
+    padding: 0 159px;
+    font-size: xx-large;
   }
+
+  .social-icons,
+  .far.fa-envelope,
+  .fa-linkedin,
+  .fa-github,
+  .contact-title {
+    color: #cac691;
+    flex: 50%;
+  }
+
+  .fa-linkedin, .fa-github {
+    padding-left: 10px;
+  }
+
+  .contact-info {
+    margin: 80px 0;
+  }
+
+  .contact-title {
+    font-size: xx-large;
+  }
+
+  .far.fa-envelope,
+  .fa-linkedin,
+  .fa-github {
+    font-size: xx-large;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
 
   /* Style adjustments for viewports that meet the condition */
 }
