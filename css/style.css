@@ -600,15 +600,10 @@ footer a:hover {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media only screen and (min-width: 1024px) {
-
-
-}
+@media only screen and (min-width: 1024px) {}
 
 @media only screen and (min-width: 1200px) {
-
   /******** HEADER STYLES ********/
-
   header nav {
     justify-content: flex-end;
     width: 45%;
@@ -618,17 +613,22 @@ footer a:hover {
     font-size: 4rem;
   }
 
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
   .home-title {
     max-width: 95%;
+    font-size: x-large;
   }
 
   /********  MAIN STYLES ********/
   .content-wrapper {
     max-width: 1450px;
-  }
-
-  h4 {
-    font-size: 1.25rem;
   }
 
   p {
@@ -662,8 +662,9 @@ footer a:hover {
     padding-bottom: 120px;
   }
 
-  h4 {
-    font-size: 1.25rem;
+  #profile-image {
+    width: 500px;
+    height: 550px;
   }
 
   .about-content-wrapper {
@@ -674,11 +675,6 @@ footer a:hover {
   #about {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  #profile-image {
-    width: 500px;
-    height: 550px;
   }
 
   .about-header {
@@ -701,28 +697,29 @@ footer a:hover {
     text-align: left;
     font-size: 1.25rem;
     margin: 0;
-    font-size: xx-large;
+    font-size: x-large;
   }
 
   /******** BOTTOM SECTION ********/
 
   .contact-info {
     margin: 80px 0;
-}
-.contact-info {
+  }
+
+  .contact-info {
     flex-direction: column;
     float: left;
     width: 50%;
-}
+  }
 
-.social-icons, .far.fa-envelope, .fa-linkedin, .fa-github, .contact-title {
-  color: #cac691;
-  flex: 30%;
-}
-
-h3 {
-  font-size: 2rem;
-}
+  .social-icons,
+  .far.fa-envelope,
+  .fa-linkedin,
+  .fa-github,
+  .contact-title {
+    color: #cac691;
+    flex: 30%;
+  }
 
   .copyright {
     padding: 100px;
