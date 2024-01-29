@@ -351,7 +351,7 @@ footer a:hover {
 }
 
 #topBtn {
-  background-color: #d2780a;
+  background-color: #7f9db9;
   color: #152A3E;
   font-weight: bolder;
   cursor: pointer;
@@ -370,7 +370,7 @@ footer a:hover {
 }
 
 #topBtn:hover {
-  background-color: #ffffff;
+  background-color: #a3cdf3;
 }
 
 .copyright {
