@@ -146,7 +146,9 @@ nav {
 }
 
 nav #contact-link {
-  background-color: #ad7105;
+  background-color: #cac691;
+  color: black;
+  font-weight: bolder;
   padding: 10px 10px;
   border-radius: 30px;
 }
@@ -164,7 +166,7 @@ ol {
 }
 
 #contact-link:hover {
-  background-color: #cac691;
+  background-color: #ffffff;
   font-weight: bolder;
 }
 
@@ -368,7 +370,7 @@ footer a:hover {
 }
 
 #topBtn:hover {
-  background-color: #e2d2b4;
+  background-color: #ffffff;
 }
 
 .copyright {
