@@ -175,6 +175,7 @@ ol {
 div {
   display: block;
 }
+
 p {
   margin: 0;
 }
@@ -503,7 +504,7 @@ footer a:hover {
   img {
     width: 100%;
     vertical-align: middle;
-}
+  }
 
   .portfolio-wrapper {
     justify-content: space-around;
@@ -534,7 +535,11 @@ footer a:hover {
     text-align: left;
     font-size: larger;
   }
+
   /******** BOTTOM SECTION ********/
+  footer {
+    padding: 140px 0;
+}
   .social-icons {
     justify-content: space-around;
     padding: 0 159px;
@@ -577,9 +582,8 @@ footer a:hover {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media only screen and (min-width: 1024px) {}
-
 @media only screen and (min-width: 1200px) {
+
   /******** HEADER STYLES ********/
   header nav {
     justify-content: flex-end;
@@ -615,7 +619,7 @@ footer a:hover {
   img {
     width: 100%;
     vertical-align: middle;
-}
+  }
 
   .project-description {
     margin: 0 0 30px 0;
@@ -683,7 +687,10 @@ footer a:hover {
   }
 
   /******** BOTTOM SECTION ********/
-
+  footer {
+    padding: 140px 0 140px 0;
+  }
+  
   .contact-info {
     margin: 80px 0;
   }
@@ -706,8 +713,6 @@ footer a:hover {
   .copyright {
     padding: 100px;
   }
-
-
   /* Style adjustments for viewports that meet the condition */
 }
 
