@@ -86,10 +86,12 @@ textarea {
 
 /******** GLOBAL STYLES ********/
 body {
-  font-family: 'Roboto Serif', serif;
+  /* font-family: 'Roboto Serif', serif; */
+  font-family: 'Open Sans', sans-serif;
   color: #152A3E;
 }
 
+/******** HEADER STYLES ********/
 header,
 #work,
 #skills,
@@ -101,7 +103,6 @@ footer {
   flex-flow: row wrap;
 }
 
-/******** HEADER STYLES ********/
 header {
   background-color: #152A3E;
   padding-top: 30px;
@@ -137,6 +138,17 @@ h3 {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alike', serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
 .home-title {
   color: #cac691
 }
@@ -163,6 +175,20 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #cac691;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+a:hover {
+  color: #152a3e;
+  background-color: #cac691;
 }
 
 #contact-link:hover {
@@ -244,26 +270,10 @@ img {
 }
 
 #about {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   padding-top: 30px;
   padding-bottom: 60px;
   background-color: #eeefda;
-}
-
-a {
-  text-decoration: none;
-  color: #cac691;
-  text-align: center;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 5px;
-}
-
-a:hover {
-  color: #152a3e;
-  background-color: #cac691;
+  width: 100%;
 }
 
 .project-link {
@@ -545,6 +555,12 @@ footer a:hover {
     font-size: larger;
   }
 
+  .about-info h4 {
+    text-align: left;
+    margin: 0 0 60px 0;
+    font-size: 1.25rem;
+  }
+
   /******** BOTTOM SECTION ********/
   footer {
     padding: 140px 0;
@@ -590,6 +606,12 @@ footer a:hover {
 
 
   /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (min-width: 1024px) {
+  .about-info h3 {
+    font-size: 3.5rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -683,6 +705,11 @@ footer a:hover {
     text-align: center;
     margin: 0;
     width: 90%;
+  }
+
+  .about-info h4 {
+    margin: 40px 0;
+    font-size: 2rem;
   }
 
   .about-text {
