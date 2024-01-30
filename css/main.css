@@ -290,7 +290,6 @@ img {
   background-color: #ad7105;
 }
 
-/* skills */
 .language-wrapper,
 .tool-wrapper {
   display: flex;
@@ -477,9 +476,7 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
   body {
-    /* background: rgb(241, 150, 186) */
   }
 
   /******** HEADER STYLES ********/
