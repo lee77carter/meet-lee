@@ -219,10 +219,7 @@ span {
 
 img {
   width: 100%;
-  border-style: double;
-  border-radius: 50%;
-  border-width: medium;
-  border-color: #ffffff;
+  border-style: none;
 }
 
 .portfolio-wrapper {
