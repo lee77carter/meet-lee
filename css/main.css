@@ -561,7 +561,8 @@ footer a:hover {
 
   /******** BOTTOM SECTION ********/
   footer {
-    padding: 140px 0;
+    padding: 31px 0 140px 0;
+    height: 500px;
   }
 
   .social-icons {
@@ -600,6 +601,7 @@ footer a:hover {
 
   .copyright {
     font-size: 16px;
+    padding: 5px;
   }
 
 
@@ -721,7 +723,8 @@ footer a:hover {
 
   /******** BOTTOM SECTION ********/
   footer {
-    padding: 140px 0 140px 0;
+    padding: 31px 0 140px 0;
+    height: 500px;
   }
 
   .contact-info {
@@ -744,7 +747,8 @@ footer a:hover {
   }
 
   .copyright {
-    padding: 100px;
+    font: 16px;
+    padding: 5px;
   }
 
   /* Style adjustments for viewports that meet the condition */
