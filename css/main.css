@@ -219,8 +219,10 @@ span {
 
 img {
   width: 100%;
-  border-style: none;
-  border-radius: 40px;
+  border-style: double;
+  border-radius: 50%;
+  border-width: medium;
+  border-color: #ffffff;
 }
 
 .portfolio-wrapper {
@@ -676,9 +678,9 @@ footer a:hover {
   }
 
   #profile-image {
-    width: 300px;
+    width: 334px;
     height: 500px;
-    padding-top: 55px;
+    padding-top: 4px;
   }
 
   .about-content-wrapper {
