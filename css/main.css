@@ -277,6 +277,10 @@ img {
 
 #profile-image {
   width: 90%;
+  border-style:solid;
+  border-radius: 50%;
+  border-width: thick;
+  border-color: #ffffff;
 }
 
 .project-link {
