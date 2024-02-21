@@ -1,3 +1,5 @@
+// Top Button Behavior
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
